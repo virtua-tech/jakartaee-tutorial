@@ -1,14 +1,14 @@
-name: build
+name: deploy
 
-on: 
-  push:
-    branches: [ master, release/* ]
-  pull_request:
-    branches: [ master, release/* ]
+on:
+  workflow_run:
+    workflows: [ build ]
+    branches: [ release/10 ]
+    types: [ completed ]
 
 jobs:
-  build:
-    name: Build
+  deploy:
+    name: Deploy release/10
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -18,5 +18,5 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
         cache: maven
-    - name: Build Docs
-      run: mvn -B clean package 
+    - name: Deploy Docs
+      run: mvn -B deploy -P publish-release-10
