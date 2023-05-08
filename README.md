@@ -84,11 +84,12 @@ The `*.svg` format is ultimately used to embed the diagram in the tutorial docum
     - Primary colors:
         - Blue: `#1B208B`
         - Orange: `#F98200`
-        - Black: `#TBD`
+        - Black: `#3D3D3D`
         - White: `#FFFFFF`
     - Secondary colors:
         - Yellow: `#FDB940`
         - Grey: `#58595B`
+        - Dark blue: `#131660`
 
 
 ### Deploy the Site to Github Pages
