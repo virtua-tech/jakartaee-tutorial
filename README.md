@@ -66,6 +66,22 @@ The `*.drawio` format ensures being able to reopen exactly the intended diagram 
 The `*.vsdx` format ensures being able to import the diagram in another tool as this is the most supported format by various diagramming tools, just in case that draw.io stops to exist in some unpredictable future.
 The `*.svg` format is ultimately used to embed the diagram in the tutorial document.
 
+#### Diagram requirements
+
+- Font must be 'Open Sans'. You can use Google Fonts for this.
+    - Wherever you see a 'Font' dropdown, unfold it.
+        ![Select font](README/images/drawio-font-1-select-font.png)
+    - If there's no 'Open Sans' option, pick 'Custom'.
+        ![Select custom](README/images/drawio-font-2-select-custom.png)
+    - Choose the 'Google Fonts' option and set the font name to 'Open Sans' and apply.
+        ![Set Google Open Sans](README/images/drawio-font-3-set-google-open-sans.png)
+    - Type text and verify that the font is Open Sans
+        ![Using Google Open Sans](README/images/drawio-font-4-using-google-open-sans.png)
+    
+- Color must be one of 
+
+
+
 ### Deploy the Site to Github Pages
 
 If you want to manually push a build to the gh-pages branch, use:
