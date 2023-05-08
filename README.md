@@ -68,7 +68,9 @@ The `*.svg` format is ultimately used to embed the diagram in the tutorial docum
 
 #### Diagram requirements
 
-- Font must be 'Open Sans'. You can use Google Fonts for this.
+- Font must be 'Open Sans' conform the [Jakarta EE Brand Usage Handbook](https://jakarta.ee/legal/trademark_guidelines/jakarta-ee-branding-guidelines.pdf).
+  You can use Google Fonts for this.
+  In case you're using draw.io:
     - Wherever you see a 'Font' dropdown, unfold it.
         ![Select font](README/images/drawio-font-1-select-font.png)
     - If there's no 'Open Sans' option, pick 'Custom'.
@@ -77,9 +79,16 @@ The `*.svg` format is ultimately used to embed the diagram in the tutorial docum
         ![Set Google Open Sans](README/images/drawio-font-3-set-google-open-sans.png)
     - Type text and verify that the font is Open Sans
         ![Using Google Open Sans](README/images/drawio-font-4-using-google-open-sans.png)
-    
-- Color must be one of 
 
+- Color must be one of those defined in [Jakarta EE Brand Usage Handbook](https://jakarta.ee/legal/trademark_guidelines/jakarta-ee-branding-guidelines.pdf), along with black and white.
+    - Primary colors:
+        - Blue: `#1B208B`
+        - Orange: `#F98200`
+        - Black: `#TBD`
+        - White: `#FFFFFF`
+    - Secondary colors:
+        - Yellow: `#FDB940`
+        - Grey: `#58595B`
 
 
 ### Deploy the Site to Github Pages
