@@ -104,6 +104,6 @@ For details, see https://sembr.org/[Semantic Line Breaks].
 
 == Use of etc., e.g. and i.e.
 
-In short, don't use them etc., e.g., and i.e.
+In short, don't use them. 
 See https://www.eclipse.org/org/documents/writing-style-guide/#31[Latinisms].
 
