@@ -167,7 +167,7 @@ The `value` attributes of the `bookstore:area` tags refer to the beans in the ap
 
 To reference the `ImageArea` model object bean values from the component class, you implement a `getValue` method in the component class.
 This method calls `super.getValue`.
-The superclass of `_tut-install_/examples/case-studies/dukes-bookstore/src/java/dukesbookstore/components/AreaComponent.java`, `UIOutput`, has a `getValue` method that does the work of finding the `ImageArea` object associated with `AreaComponent`.
+The superclass of `jakartaee-examples/tutorial/case-studies/dukes-bookstore/src/main/java/jakarta/tutorial/dukesbookstore/components/AreaComponent.java`, `UIOutput`, has a `getValue` method that does the work of finding the `ImageArea` object associated with `AreaComponent`.
 The `AreaRenderer` class, which needs to render the `alt`, `shape`, and `coords` values from the `ImageArea` object, calls the `getValue` method of `AreaComponent` to retrieve the `ImageArea` object.
 
 [source,java]
