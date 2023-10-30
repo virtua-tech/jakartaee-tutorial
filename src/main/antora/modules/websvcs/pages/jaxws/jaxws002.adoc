@@ -1,7 +1,7 @@
 == Creating a Simple Web Service and Clients with XML Web Services
 
 This section shows how to build and deploy a simple web service and two clients: an application client and a web client.
-The source code for the service is in the `_tut-install_/examples/jaxws/helloservice-war/` directory, and the clients are in the `_tut-install_/examples/jaxws/hello-appclient/` and `_tut-install_/examples/jaxws/hello-webclient/` directories.
+The source code for the service is in the `_jakartaee-examples_/tutorial/jaxws/helloservice-war/` directory, and the clients are in the `_jakartaee-examples_/tutorial/jaxws/hello-appclient/` and `_jakartaee-examples_/tutorial/jaxws/hello-webclient/` directories.
 
 <<_communication_between_a_xml_web_service_and_a_client>> illustrates how XML Web Services technology manages communication between a web service and a client.
 
@@ -113,7 +113,7 @@ You can use either NetBeans IDE or Maven to build, package, and deploy the `hell
 . In the *Open Project* dialog box, navigate to:
 +
 ----
-tut-install/examples/jaxws
+jakartaee-examples/tutorial/jaxws
 ----
 
 . Select the `helloservice-war` folder.
@@ -122,7 +122,7 @@ tut-install/examples/jaxws
 
 . In the *Projects* tab, right-click the `helloservice-war` project and select *Run*.
 +
-This command builds and packages the application into a WAR file, `helloservice-war.war`, located in `_tut-install_/examples/jaxws/helloservice-war/target/`, and deploys this WAR file to your GlassFish Server instance.
+This command builds and packages the application into a WAR file, `helloservice-war.war`, located in `_jakartaee-examples_/tutorial/jaxws/helloservice-war/target/`, and deploys this WAR file to your GlassFish Server instance.
 It also opens the web service test interface at the URL shown in <<_to_test_the_service_without_a_client>>.
 
 You can view the WSDL file of the deployed service by requesting the URL http://localhost:8080/helloservice-war/HelloService?wsdl[^] in a web browser.
@@ -135,7 +135,7 @@ Now you are ready to create a client that accesses this service.
 . In a terminal window, go to:
 +
 ----
-tut-install/examples/jaxws/helloservice-war/
+jakartaee-examples/tutorial/jaxws/helloservice-war/
 ----
 
 . Enter the following command:
@@ -213,7 +213,7 @@ The port implements the SEI defined by the service.
 return port.sayHello(arg0);
 ----
 
-Here is the full source of `HelloAppClient.java`, which is located in the `_tut-install_/examples/jaxws/hello-appclient/src/main/java/ee/jakarta/tutorial/hello/appclient/` directory:
+Here is the full source of `HelloAppClient.java`, which is located in the `_jakartaee-examples_/tutorial/jaxws/hello-appclient/src/main/java/ee/jakarta/tutorial/hello/appclient/` directory:
 
 [source,java]
 ----
@@ -254,7 +254,7 @@ To build the client, you must first have deployed `helloservice-war`, as describ
 . In the *Open Project* dialog box, navigate to:
 +
 ----
-tut-install/examples/jaxws
+jakartaee-examples/tutorial/jaxws
 ----
 
 . Select the `hello-appclient` folder.
@@ -276,7 +276,7 @@ Hello, world.
 . In a terminal window, go to:
 +
 ----
-tut-install/examples/jaxws/hello-appclient/
+jakartaee-examples/tutorial/jaxws/hello-appclient/
 ----
 
 . Enter the following command:
@@ -341,7 +341,7 @@ out.println("<p>" + sayHello("world") + "</p>");
 ----
 
 The significant parts of the `HelloServlet` code follow.
-The code is located in the `_tut-install_/examples/jaxws/hello-webclient/src/java/ee/jakarta/tutorial/hello/ webclient/` directory.
+The code is located in the `_jakartaee-examples_/tutorial/jaxws/hello-webclient/src/java/ee/jakarta/tutorial/hello/ webclient/` directory.
 
 [source,java]
 ----
@@ -413,7 +413,7 @@ To build the client, you must first have deployed `helloservice-war`, as describ
 . In the *Open Project* dialog box, navigate to:
 +
 ----
-tut-install/examples/jaxws
+jakartaee-examples/tutorial/jaxws
 ----
 
 . Select the `hello-webclient` folder.
@@ -437,7 +437,7 @@ The output of the `sayHello` method appears in the window.
 . In a terminal window, go to:
 +
 ----
-tut-install/examples/jaxws/hello-webclient/
+jakartaee-examples/tutorial/jaxws/hello-webclient/
 ----
 
 . Enter the following command:

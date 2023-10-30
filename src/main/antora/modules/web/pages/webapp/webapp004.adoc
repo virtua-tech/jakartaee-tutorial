@@ -49,7 +49,7 @@ To view the `hello2` web module using NetBeans IDE:
 . In the Open Project dialog box, navigate to:
 +
 ----
-tut-install/examples/web/servlet
+jakartaee-examples/tutorial/web/servlet
 ----
 
 . Select the `hello2` folder and click *Open Project*.
@@ -149,7 +149,7 @@ To run the `hello2` example using NetBeans IDE:
 . In the Open Project dialog box, navigate to:
 +
 ----
-tut-install/examples/web/servlet
+jakartaee-examples/tutorial/web/servlet
 ----
 
 . Select the `hello2` folder.
@@ -178,7 +178,7 @@ To run the `hello2` example using Maven:
 . In a terminal window, go to:
 +
 ----
-tut-install/examples/web/servlet/hello2/
+jakartaee-examples/tutorial/web/servlet/hello2/
 ----
 
 . Enter the following command:
