@@ -72,7 +72,7 @@ public void tearDown() {
 . In the *Open Project* dialog box, navigate to:
 +
 ----
-tut-install/examples/ejb
+jakartaee-examples/tutorial/ejb
 ----
 
 . Select the `standalone` folder and click *Open Project*.
@@ -87,7 +87,7 @@ The Output tab shows the progress of the test and the output log.
 . In a terminal window, go to:
 +
 ----
-tut-install/examples/ejb/standalone/
+jakartaee-examples/tutorial/ejb/standalone/
 ----
 
 . Enter the following command:
