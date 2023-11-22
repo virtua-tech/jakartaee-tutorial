@@ -5,5 +5,6 @@ For more information on Jakarta Servlet technology, see the Jakarta Servlet 6.0 
 The Jakarta Servlet 6.0 specification was released with Jakarta EE 10. For more about the changes in this release please see 
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Top-5-things-to-know-about-the-Jakarta-Servlet-60-API-release[this article^].
 
-NOTE: as part of the Servlet 6.0 specification several deprecated methods and classes were permanently removed, please see the list here:
-https://jakarta.ee/specifications/servlet/5.0/apidocs/deprecated-list.html[^]
+NOTE: As part of the Servlet 6.0 specification several deprecated methods and classes were permanently removed, please see the list here:
+https://jakarta.ee/specifications/servlet/5.0/apidocs/deprecated-list.html[^].
+
