@@ -4,8 +4,8 @@ This chapter describes the Jakarta REST Client API and includes examples of how 
 
 Jakarta REST provides a client API for accessing REST resources from other Java applications.
 
-include::jaxrs-client001.adoc[]
+include::rest-client001.adoc[]
 
-include::jaxrs-client002.adoc[]
+include::rest-client002.adoc[]
 
-include::jaxrs-client003.adoc[]
+include::rest-client003.adoc[]
