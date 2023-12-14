@@ -14,7 +14,7 @@ You can find a version of this application at `_jakartaee-examples_/tutorial/res
 
 . Ensure you have installed the tutorial archetypes as described in xref:intro:usingexamples/usingexamples.adoc#_installing_the_tutorial_archetypes[Installing the Tutorial Archetypes].
 
-. In NetBeans IDE, create a simple web application using the `rest-service-archetype` Maven archetype.
+. In NetBeans IDE, create a simple web application using the `jaxrs-service-archetype` Maven archetype.
 This archetype creates a very simple "Hello, World" web application.
 
 .. From the File menu, choose New Project.
