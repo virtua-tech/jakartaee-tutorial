@@ -4,10 +4,10 @@ This chapter describes the REST architecture, RESTful web services, and the Jaka
 
 Jakarta REST makes it easy for developers to build RESTful web services using the Java programming language.
 
-include::jaxrs001.adoc[]
+include::rest001.adoc[]
 
-include::jaxrs002.adoc[]
+include::rest002.adoc[]
 
-include::jaxrs003.adoc[]
+include::rest003.adoc[]
 
-include::jaxrs004.adoc[]
+include::rest004.adoc[]
