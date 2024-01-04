@@ -18,19 +18,24 @@ but the container provides operating system services, such as disk and network I
 While the two container types are different,
 it's entirely possible (and common) to run a Jakarta EE application inside a Docker container.
 ****
-The figure below shows how the application code, container, and Jakarta EE Server are related:
+<<_code_container_server>> shows how the application code, container, and Jakarta EE Server are related:
 
-image::container-services.svg[ "Relationship between containers, serveris, and your code."]
+[[_code_container_server]]
+.Relationship between Code, Container, and Server
+image::container-services.svg["Relationship between containers, server, and your code"]
 
 In a simple case, an application might look like this:
 
-image::simple-app.svg[ "Simple Jakarta EE Application"]
+.A Simple Jakarta EE Application
+image::simple-app.svg["Simple Jakarta EE Application"]
 
 However, a single Jakarta EE Server can run multiple applications,
 and applications can communicate with each other remotely.
-So you can create more complicated scenarios, as shown below:
+So you can create more complicated scenarios, as shown in <<_more_complex_application>>:
 
-image::multitier-app.svg[ "More Complex Jakarta EE Application"]
+[[_more_complex_application]]
+.A More Complex Jakarta EE Application
+image::multitier-app.svg["A More Complex Jakarta EE Application"]
 
 NOTE: Even though the figures above show communication between multiple Jakarta EE applications,
 they can and often do communicate with non-Jakarta EE applications via messaging or streaming servers, REST, and so on.
