@@ -27,7 +27,7 @@ The corresponding Metamodel class is as follows:
 ----
 package com.example;
 ...
-@Static Metamodel(Pet.class)
+@StaticMetamodel(Pet.class)
 public class Pet_ {
 
     public static volatile SingularAttribute<Pet, Long> id;
