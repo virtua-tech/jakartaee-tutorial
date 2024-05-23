@@ -15,7 +15,7 @@ public class Pet {
     protected Long id;
     protected String name;
     protected String color;
-    @ManyToOne
+    @OneToMany
     protected Set<Person> owners;
     ...
 }
