@@ -65,7 +65,7 @@ The following code snippet shows how to obtain the `Pet` entity's metamodel clas
 ----
 EntityManager em = ...;
 CriteriaBuilder cb = em.getCriteriaBuilder();
-CriteriaQuery cq = cb.createQuery(Pet.class);
+CriteriaQuery<Pet> cq = cb.createQuery(Pet.class);
 Root<Pet> pet = cq.from(Pet.class);
 EntityType<Pet> Pet_ = pet.getModel();
 ----
