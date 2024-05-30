@@ -1,0 +1,26 @@
+== CDI Lite vs CDI Full
+
+As of CDI version 4.0 in Jakarta EE version 10, the Core CDI functionality has been split into two parts: CDI Lite and CDI Full.
+ 
+CDI Lite provides a subset of the CDI Full functionality with an emphasis on build-time implementations. By leaving out the additional components from CDI Full such as those dealing with runtime reflection, CDI Lite is able to execute in lighter and more restricted environments.
+
+Jakarta EE-compliant application servers will still implement the CDI Full functionality so this change will benefit those developers working in alternate (e.g. cloud-based) environments without affecting those working in a standard Jakarta EE environment.
+
+Functionality available only in CDI Full includes the following:
+
+- Binding interceptors using @Interceptors
+- Explicit bean archives
+- Declaring interceptors on classes using @AroundInvoke 
+- Decorator classes
+- Portable extensions
+- Serialization via passivation/activation
+- Session scope, conversation scope
+- Specialization using @Alternative and @Specializes
+
+Please see the xref:cdi-basic/cdi-basic#_further_information_about_cdi[Further Information about CDI] section of this chapter for links to the latest specification.
+
+
+[NOTE]
+====
+The remainder of this chapter deals with the CDI Lite profile. The tutorial chapter on CDI Full can be found xref:cdi-adv/cdi-adv.adoc[here].
+====
