@@ -2,4 +2,4 @@
 
 For more information on WebSocket in Jakarta EE, see the Jakarta WebSocket specification:
 
-https://jakarta.ee/specifications/websocket/2.0/[^]
+https://jakarta.ee/specifications/websocket/2.1/[^]
