@@ -2,8 +2,8 @@
 
 For more information about concurrency, see
 
-* Jakarta Concurrency 2.0 specification: +
-https://jakarta.ee/specifications/concurrency/2.0/[^]
+* Jakarta Concurrency 3.0 specification: +
+https://jakarta.ee/specifications/concurrency/3.0/[^]
 
 * Concurrency Lesson in The Java Tutorials: +
 https://docs.oracle.com/javase/tutorial/essential/concurrency/[^]

@@ -101,7 +101,7 @@ Also, make sure you use a hyphen ("-") in the name as a delimiter; for example `
 | --- | --- |
 | Jakarta Foo Technology | Jakarta Foo API |
 | JavaBeans components | beans |
-| application server | Jakara runtime |
+| application server | Jakarta runtime |
 | (web) container | servlet container | 
 | context root | context path |
 | web context | application scope |
