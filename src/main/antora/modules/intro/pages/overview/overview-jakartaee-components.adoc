@@ -4,7 +4,7 @@ Jakarta EE applications are made up of components. A *Jakarta EE component* is a
 makes use of one or more container services.
 That usage could be as simple as injecting a single dependency
 or responding to REST requests, or as complicated as
-injecting multiple dependencies, querying a database, firing and event, and participating in distributed transactions.
+injecting multiple dependencies, querying a database, firing an event, and participating in distributed transactions.
 
 Jakarta EE supports the following components:
 
