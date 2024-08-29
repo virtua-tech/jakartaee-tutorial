@@ -24,7 +24,7 @@ Guidelines for generating new images can be found in the [Contributing guide](CO
 ## Building
 
 The contents of this repo are built by
-the [jakartaee-tutorial-playbook repository](https://github.com/jakartaee/jakartaee-documentation).
+the [jakartaee-documentation repository](https://github.com/jakartaee/jakartaee-documentation).
 See that repo for details.
 
 ## Related Repositories
