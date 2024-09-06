@@ -3,6 +3,7 @@ title: Jakarta EE Tutorial
 version: 9.1
 asciidoc:
   attributes:
+    page-pdf-download-name: jakarta-ee-tutorial.pdf
     source-language: asciidoc@
     table-caption: false
     xrefstyle: full
@@ -20,4 +21,3 @@ nav:
   - modules/security/nav.adoc
   - modules/supporttechs/nav.adoc
   - modules/casestudies/nav.adoc
-  
