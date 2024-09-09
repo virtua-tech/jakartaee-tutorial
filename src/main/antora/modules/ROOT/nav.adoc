@@ -27,11 +27,11 @@ xref:index.adoc[]
 
 * Jakarta REST
 
-** xref:websvcs:jaxrs/jaxrs.adoc[]
+** xref:websvcs:rest/rest.adoc[]
 
-** xref:websvcs:jaxrs-client/jaxrs-client.adoc[]
+** xref:websvcs:rest-client/rest-client.adoc[]
 
-** xref:websvcs:jaxrs-advanced/jaxrs-advanced.adoc[]
+** xref:websvcs:rest-advanced/rest-advanced.adoc[]
 
 * Jakarta JSON
 
