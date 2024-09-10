@@ -5,6 +5,7 @@ src/main/jbake/content/toc.adoc
 .settings/
 *.classpath
 *.project
+bin/
 
 # IntelliJ #
 .idea/

@@ -65,5 +65,5 @@ Developers can use such technologies as JAX-RS and Asynchronous JavaScript with 
 Rather than starting from scratch, services can be exposed with XML and consumed by HTML pages without significantly refactoring the existing website architecture.
 Existing developers will be more productive because they are adding to something they are already familiar with rather than having to start from scratch with new technology.
 
-RESTful web services are discussed in xref:jaxrs/jaxrs.adoc#_building_restful_web_services_with_jakarta_rest[Building RESTful Web Services with Jakarta REST].
+RESTful web services are discussed in xref:rest/rest.adoc#_building_restful_web_services_with_jakarta_rest[Building RESTful Web Services with Jakarta REST].
 This chapter contains information about generating the skeleton of a RESTful web service using both NetBeans IDE and the Maven project-management tool.
