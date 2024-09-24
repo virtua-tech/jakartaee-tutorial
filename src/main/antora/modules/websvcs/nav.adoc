@@ -4,8 +4,8 @@
 
 * xref:jaxws/jaxws.adoc[]
 
-* xref:jaxrs/jaxrs.adoc[]
+* xref:rest/rest.adoc[]
 
-* xref:jaxrs-client/jaxrs-client.adoc[]
+* xref:rest-client/rest-client.adoc[]
 
-* xref:jaxrs-advanced/jaxrs-advanced.adoc[]
+* xref:rest-advanced/rest-advanced.adoc[]
