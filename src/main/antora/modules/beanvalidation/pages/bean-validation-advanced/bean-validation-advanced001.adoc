@@ -11,7 +11,7 @@ This can simplify constraint definition by allowing developers to define a custo
 ----
 @Pattern.List({
   /* A number of format “+1-NNN-NNN-NNNN” */
-  @Pattern(regexp = “\\+1-\\d{3}-\\d{3}-\\d{4})
+  @Pattern(regexp = "\\+1-\\d{3}-\\d{3}-\\d{4}")
 })
 @Constraint(validatedBy = {})
 @Documented
@@ -19,8 +19,8 @@ This can simplify constraint definition by allowing developers to define a custo
     ElementType.FIELD,
     ElementType.ANNOTATION_TYPE,
     ElementType.CONSTRUCTOR,
-    ElementType.PARAMETER
-    ElementType.Type_Use})
+    ElementType.PARAMETER,
+    ElementType.TYPE_USE})
 @Retention(RetentionPolicy.RUNTIME)
 @Repeatable(List.class)
 public @interface USPhoneNumber {
@@ -35,8 +35,8 @@ public @interface USPhoneNumber {
      ElementType.FIELD,
      ElementType.ANNOTATION_TYPE,
      ElementType.CONSTRUCTOR,
-     ElementType.PARAMETER
-     ElementType.Type_Use })
+     ElementType.PARAMETER,
+     ElementType.TYPE_USE })
   @Retention(RetentionPolicy.RUNTIME)
   @Documented
   @interface List {
