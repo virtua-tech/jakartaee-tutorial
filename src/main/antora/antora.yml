@@ -1,6 +1,6 @@
 name: jakartaee-tutorial
 title: Jakarta EE Tutorial
-version: 10
+version: 11
 asciidoc:
   attributes:
     page-pdf-download-name: jakarta-ee-tutorial.pdf
