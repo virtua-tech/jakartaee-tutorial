@@ -48,3 +48,5 @@ If you'd like to propose changes or additions to the content and/or images,
 please read the [Style guide](STYLE_GUIDE.adoc) and  
 [Contributing guide](CONTRIBUTING.md) for more information.
 
+[Join us on Slack](https://join.slack.com/t/eclipsefoundationhq/shared_invite/zt-2shajguc7-1ZwbvVtZkKrB4acy4U4aLQ) in the [#jakartaee-tutorial](https://eclipsefoundationhq.slack.com/archives/C050VD73M7C) channel to discuss open issues and plan updates.
+
