@@ -1,0 +1,6 @@
+== Jakarta XML Binding
+
+Jakarta XML Binding (JAXB) provides a way to convert Java objects to XML and vice versa. It is a part of the Jakarta EE platform.
+
+* https://jakarta.ee/specifications/xml-binding/[Jakarta XML Binding Specification]
+* https://jakarta.ee/specifications/xml-binding/3.0/[Example using Jakarta REST with Jakarta XML Binding]
