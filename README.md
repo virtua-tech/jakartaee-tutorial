@@ -11,11 +11,6 @@ which is a tool for building documentation sites.
 You can always find the most recent build of the Jakarta EE Documentation site here:
 https://jakartaee.github.io/jakartaee-documentation/.
 
-> NOTE: We're currently in the process of updating the tutorial site and
-> refreshing the content for Jakarta EE 10 and beyond. This is a work in progress.
-> For the current production version of the tutorial, see
-> [jakartaee/jakartaee-tutorial](https://github.com/jakartaee/jakartaee-tutorial).
-
 ## A Note about Images
 
 We keep the source files (VSD) and the published format (SVG)
@@ -29,7 +24,7 @@ Guidelines for generating new images can be found in the [Contributing guide](CO
 ## Building
 
 The contents of this repo are built by
-the [jakartaee-tutorial-playbook repository](https://github.com/jakartaee/jakartaee-documentation).
+the [jakartaee-documentation repository](https://github.com/jakartaee/jakartaee-documentation).
 See that repo for details.
 
 ## Related Repositories
@@ -42,11 +37,15 @@ See that repo for details.
 
 This project is open for contributions, and your
 help is greatly appreciated. 
-The easiest way to contribute is by opening an issue in this project
+The easiest way to contribute is by opening an [issue](https://github.com/jakartaee/jakartaee-tutorial/issues) in this project
 that contains feedback and review comments. 
-You can also create PRs directly while viewing the published documentation.
+
+You can also create PRs directly while viewing the published documentation by using the Edit button in the UI.
+
+If you want to keep up with our project planning across all of the repos, see the [project board](https://github.com/orgs/jakartaee/projects/7).
 
 If you'd like to propose changes or additions to the content and/or images,
 please read the [Style guide](STYLE_GUIDE.adoc) and  
 [Contributing guide](CONTRIBUTING.md) for more information.
 
+[Join us on Slack](https://join.slack.com/t/eclipsefoundationhq/shared_invite/zt-2shajguc7-1ZwbvVtZkKrB4acy4U4aLQ) in the [#jakartaee-tutorial](https://eclipsefoundationhq.slack.com/archives/C050VD73M7C) channel to discuss open issues and plan updates.

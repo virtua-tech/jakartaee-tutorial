@@ -1,0 +1,23 @@
+= Jakarta REST: Advanced Topics and an Example
+
+Jakarta RESTful Web Services (Jakarta REST) is designed to make it easy to develop applications that use the REST architecture.
+This chapter describes advanced features of Jakarta REST.
+If you are new to Jakarta REST, see xref:rest/rest.adoc#_building_restful_web_services_with_jakarta_rest[Building RESTful Web Services with Jakarta REST] before you proceed with this chapter.
+
+Jakarta REST is integrated with Jakarta Contexts and Dependency Injection (CDI), Jakarta Enterprise Beans technology, and Jakarta Servlet technology.
+
+include::rest-advanced001.adoc[]
+
+include::rest-advanced002.adoc[]
+
+include::rest-advanced003.adoc[]
+
+include::rest-advanced004.adoc[]
+
+include::rest-advanced005.adoc[]
+
+include::rest-advanced006.adoc[]
+
+include::rest-advanced007.adoc[]
+
+include::rest-advanced008.adoc[]

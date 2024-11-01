@@ -1,11 +1,19 @@
 
-.Introduction
+xref:index.adoc[]
 
-* xref:index.adoc[]
+.Introduction
 
 * xref:intro:overview/overview.adoc[]
 
 * xref:intro:usingexamples/usingexamples.adoc[]
+
+.Platform Basics
+
+* xref:platform:resource-creation/resource-creation.adoc[]
+
+* xref:platform:injection/injection.adoc[]
+
+* xref:platform:packaging/packaging.adoc[]
 
 .Jakarta EE Core Profile
 
@@ -19,11 +27,11 @@
 
 * Jakarta REST
 
-** xref:websvcs:jaxrs/jaxrs.adoc[]
+** xref:websvcs:rest/rest.adoc[]
 
-** xref:websvcs:jaxrs-client/jaxrs-client.adoc[]
+** xref:websvcs:rest-client/rest-client.adoc[]
 
-** xref:websvcs:jaxrs-advanced/jaxrs-advanced.adoc[]
+** xref:websvcs:rest-advanced/rest-advanced.adoc[]
 
 * Jakarta JSON
 

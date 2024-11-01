@@ -91,6 +91,26 @@ See the https://docs.antora.org/antora/latest/page/xref/[Antora xref docs^] for 
 
 TIP: If you want to give a heading a permanent identifier, you can https://docs.asciidoctor.org/asciidoc/latest/attributes/id/#add-additional-anchors-to-a-section[add an anchor to the section^] and use that instead.
 
+== Titles for Images and Tables 
+
+Images and tables should be given a title using the asciidoc title syntax starting with a dot. This can be preceded with an anchor using underscores. For example:
+
+[source, asciidoc]
+----
+[[_anchor_name]]
+.Image Title
+image::image-path.svg["Image Alt Text"]
+----
+
+Links to the image or table can be created using the anchor name and either the internal or external link instructions as given for headers above. For example:
+
+[source, asciidoc]
+----
+ <<_anchor_name>>
+----
+
+Note the labels for table captions can be turned on and off using the _table-caption_ document attribute in antora.yml 
+
 == Definitions
 
 Use bold for a word when defining it.
@@ -107,3 +127,6 @@ For details, see https://sembr.org/[Semantic Line Breaks].
 In short, don't use them etc., e.g., and i.e.
 See https://www.eclipse.org/org/documents/writing-style-guide/#31[Latinisms].
 
+== Conventions
+
+Please follow the https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html#_conventions[conventions described in the tutorial].
