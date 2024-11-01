@@ -61,3 +61,24 @@ The identifier can be maintained on the client as a cookie, or the web component
 If your application uses session objects, you must ensure that session tracking is enabled by having the application rewrite URLs whenever the client turns off cookies.
 You do this by calling the response's `encodeURL(URL)` method on all URLs returned by a servlet.
 This method includes the session ID in the URL only if cookies are disabled; otherwise, the method returns the URL unchanged.
+
+=== Servlet Request Connection Information
+
+The session tracking as described above is sufficient for most applications but debugging and certain advanced use cases may require tracking individual low level connections.
+
+New in the Servlet 6.0 API release is the `jakarta.servlet.ServletConnection` interface which gives fine-grained information about the connection associated with a given servlet request. Most notably `getConnectionId()` returns a unique ID for the network connection and `getRequestId()` returns a unique ID for the given servlet request.
+
+Here is an example of retrieving the connection ID inside a servlet method:
+
+[source,java]
+----
+@Override
+public void doGet
+    (HttpServletRequest request, HttpServletResponse response)
+        throws ServletException, IOException
+{
+	ServletConnection connection = request.getServletConnection();
+	String id = connection.getConnectionId();         
+  	...
+}
+----
