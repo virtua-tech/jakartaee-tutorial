@@ -1,7 +1,7 @@
 # Jakarta EE Tutorial
 
 This repository contains the source files that are used to build the
-_Jakarta Enterprise Edition (Jakarta EE) Tutorial_. 
+_Jakarta EE Tutorial_. 
 The source files are authored in [AsciiDoc](https://asciidoc.org/). 
 AsciiDoc is similar to markdown but is particularly suited for user documentation. 
 The source files are processed and integrated into the Jakarta EE Documentation site using
