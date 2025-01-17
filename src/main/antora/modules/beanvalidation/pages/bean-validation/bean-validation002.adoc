@@ -78,7 +78,7 @@ Date eventDate;
 ----
 {empty}
 
-|`@FutureOrPresent` |TThe value of the field or property must be a date or time in present or future. |
+|`@FutureOrPresent` |The value of the field or property must be a date or time in present or future. |
 
 [source,java]
 ----
@@ -137,7 +137,7 @@ String message;
 [source,java]
 ----
 @NotEmpty
-String message;;
+String message;
 ----
 {empty}
 
